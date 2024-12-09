@@ -1,0 +1,15 @@
+ydat: current
+yunit: mA/cm2
+ylog: false
+xdat: voltage
+xunit: V
+xlog: false
+rval: 67.5
+rerr: None
+runit: mV/dec
+v_reversed: true
+i_reversed: false
+cat:
+    - Fe
+    - N
+    - C

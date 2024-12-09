@@ -1,0 +1,16 @@
+ydat: current
+yunit: mA/cm2
+ylog: true
+xdat: voltage
+xunit: V
+xlog: false
+rval: 165.0
+rerr: None
+runit: mV/dec
+v_reversed: true
+i_reversed: false
+cat:
+    - Co
+    - porphyrin
+    - C
+    - N

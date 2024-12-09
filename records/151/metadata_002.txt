@@ -1,0 +1,16 @@
+xdat: current
+xunit: A/cm2
+xlog: true
+ydat: voltage
+yunit: V
+ylog: false
+rval: 91.6
+rerr: None
+runit: mV/dec
+v_reversed: false
+i_reversed: false
+cat:
+    - Cu
+    - S
+    - Sn
+    - O

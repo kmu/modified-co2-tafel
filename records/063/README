@@ -1,0 +1,6 @@
+There are two datasets in the figure, but the plot does not have enough
+resolution on the y-axis to properly pin down the values of the first three
+points. they all show up as identically zero when digitized. I made an attempt
+to try reconstructin gthe first three points of the black dataset from the
+inset log plot, but I could not get the points to match up, and hence I simply
+excluded the black dataset.

@@ -1,0 +1,14 @@
+ydat: current
+yunit: mA/cm2
+ylog: true
+xdat: voltage
+xunit: V
+xlog: false
+rval: 179.0
+rerr: None
+runit: mV/dec
+v_reversed: false
+i_reversed: false
+cat:
+    - Zn
+    - O
