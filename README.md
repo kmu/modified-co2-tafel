@@ -11,6 +11,15 @@ conda create -n co2py38 python=3.8
 pip3 install -r requirements.txt
 ```
 
+## Analysis
+
+```
+conda create -n co2py38 python=3.8
+python julius/bin/process-annotated-links.py --links-fname records.txt --df-out-fname records-df.pkl
+
+python julius/bin/cli.py dispatch-fits --records-dir records --df-name records-df.pkl --save-dir fits --rand-seed 2020 --nsamples 10000
+python julius/bin/cli.py plot-fits --records-dir records --df-name records-df.pkl --fits-dir fits --figures-dir figures
+```
 
 # Original README
 
