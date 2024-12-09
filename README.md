@@ -1,3 +1,19 @@
+# CO2 Reduction Tafel Dataset for Bayesian Data Analysis
+
+This is a modified version of [CO2 Reduction Tafel Dataset for Bayesian Data Analysis](https://data.niaid.nih.gov/resources?id=zenodo_3995020).
+
+## Setting up
+
+```
+git clone git@github.com:kmu/modified-co2-tafel.git
+cd modified-co2-tafel
+conda create -n co2py38 python=3.8
+pip3 install -r requirements.txt
+```
+
+
+# Original README
+
 Dataset Title:
 
 CO2 Reduction Tafel Dataset for Bayesian Data Analysis
