@@ -1,13 +1,13 @@
 ydat: current
 yunit: mA/cm2
-ylog: true
+ylog: false
 xdat: voltage
 xunit: V
 xlog: false
 rval: 120.0
 rerr: None
 runit: mV/dec
-v_reversed: true
+v_reversed: false
 i_reversed: true
 cat:
     - In
