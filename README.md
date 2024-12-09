@@ -59,6 +59,7 @@ Date of Collection: October 2019 - May 2020
 
 File Tree:
 
+```
 ├── README                                  -- this file
 ├── data_organization.pdf                   -- PDF including data organization and citations for data
 ├── julius                                  -- directory for analysis code
@@ -77,6 +78,7 @@ File Tree:
 │   └── requirements.txt
 ├── records                                 -- directory containing data and metadata files
 └── records.txt                             -- plain text record of the directories in the records/ directory. column names are specified in the first line, but this file is only meant to be used for processing by the julius/cli.py workflow entry point. A human-readable record of the provenance of all papers can be found in data_organization.pdf.
+```
 
 
 Licensing:
