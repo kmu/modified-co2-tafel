@@ -101,7 +101,6 @@ unique identifier paper URL "reports tafel slope" "particularly good data flag" 
 116 https://onlinelibrary.wiley.com/doi/full/10.1002/anie.201807571 "figure 2d" yes yes 116
 117 https://pubs.acs.org/doi/pdf/10.1021/acsenergylett.7b01096 "figure 3a" yes yes 117
 118 https://pubs.acs.org/doi/pdf/10.1021/acsaem.8b01692 "figure 5" yes yes 118
-119 https://pubs.rsc.org/--/content/articlehtml/2015/cp/c5cp03559g "figure 6" yes yes 119
 120 https://science.sciencemag.org/content/sci/suppl/2019/06/12/364.6445.1091.DC1/aaw7515-Gu-SM.pdf "figure S6" yes yes 120
 121 https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/celc.201801036 "figure 10" yes yes 121
 122 https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201705872 "figure 5a" yes yes 122
@@ -117,7 +116,6 @@ unique identifier paper URL "reports tafel slope" "particularly good data flag" 
 132 https://onlinelibrary.wiley.com/doi/pdf/10.1002/ange.201805256 "figure 4c" yes yes 132
 133 https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Faenm.201601103&file=aenm201601103-sup-0001-S1.pdf "figure s10" yes yes 133
 134 https://www.nature.com/articles/s41467-018-07970-9 "figure 2a" yes yes 134
-135 https://www.sciencedirect.com/science/article/pii/S2211285519304021 "figure 2b" yes yes 135
 136 https://pubs.rsc.org/lv/content/articlehtml/2016/ta/c6ta04325a "figure 4" yes yes 136
 137 https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/celc.201800806 "figure 2d" yes yes 137
 138 https://onlinelibrary.wiley.com/doi/full/10.1002/anie.201805871 "figure 3b" yes yes 138
