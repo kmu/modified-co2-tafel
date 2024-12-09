@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-
+import json
 
 LOGE10 = np.log(10)
 LOG10E = np.log10(np.exp(1))
@@ -124,7 +124,16 @@ def three_panel_fit_examination_plot(voltages, currents, trace, ap_model,
     sns.kdeplot(ap_tafels, shade=True, color='g')
     plt.xlabel(r'$\alpha^{-1}$ [mV/decade]', fontsize=14)
     plt.ylabel(r'$p(\alpha^{-1}|\,\mathrm{data})$', fontsize=14)
-    plt.axvline(x=np.mean(ap_tafels), color='g', linestyle='-',
+    map_value = np.mean(ap_tafels)
+
+    # Generate json file path by replacing the extension
+    if fname is not None:
+        json_path = fname.rsplit('.', 1)[0] + '.json'
+        # Save the MAP value to json
+        with open(json_path, 'w') as f:
+            json.dump({'map_value': float(map_value)}, f)
+
+    plt.axvline(x=map_value, color='g', linestyle='-',
                 label='MAP')
     if reported_tafel is not None:
         plt.axvline(x=reported_tafel, color='k', linestyle='-', label='Reported Value')
